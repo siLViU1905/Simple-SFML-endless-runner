@@ -6,8 +6,6 @@ class world
 {
 	std::list<sf::RectangleShape> ground;
 
-	sf::RectangleShape firstTile, lastTile;
-
 	character player;
 
 	float playerSpeed;
