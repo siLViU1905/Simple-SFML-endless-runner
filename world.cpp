@@ -13,9 +13,6 @@ world::world(unsigned int windowWidth, unsigned int windowHeight, float playerSp
 		tile.setPosition(x, y);
 		x += tileStep;
 	}
-	firstTile = ground.front();
-	lastTile = ground.back();
-
 	player.getPlayer().setPosition(windowWidth / 2, y - 40.f);
 	player.getPlayer().setSize(sf::Vector2f(20.f, 40.f));
 	player.getPlayer().setFillColor(sf::Color::White);
